@@ -1,0 +1,8 @@
+<app-card *ngFor="let post of posts" 
+  [title]="post.title" 
+  [imageUrl]="post.imageUrl" 
+  [userName]="post.userName"
+  [description]="post.description">
+</app-card>
+
+<router-outlet />
